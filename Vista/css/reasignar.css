@@ -1,0 +1,150 @@
+.carga-descarga
+{
+	width: 100%;
+}
+
+#carga-descarga
+{
+	width: 100%;
+}
+
+.acta-reasig
+{
+	width: 100%;
+}
+
+#acta-reasig
+{
+	width: 100%;
+}
+
+.fecha-reasig
+{
+	width: 100%;
+}
+
+#fecha-reasig
+{
+	width: 100%;
+}
+
+.nuevadep-reasig
+{
+	width: 100%;
+}
+
+#nuevadep-reasig
+{
+	width: 100%;
+}
+
+.viejadep-reasig
+{
+	width: 100%;
+}
+
+#viejadep-reasig
+{
+	width: 100%;
+}
+
+.btn-center .btn.save
+{
+  font-size: 0.85rem;
+  margin: 0 1.1rem;
+  height: 2.5rem;
+  width: 6rem;
+}
+
+.mov-reasig
+{
+	width: 100%;
+}
+
+#mov-reasig
+{
+	width: 100%;
+}
+
+.concept-reasig
+{
+	width: 100%;
+}
+
+#concept-reasig
+{
+	width: 100%;
+}
+
+.code-bien
+{
+	width: 100%;
+}
+
+#code-bien
+{
+	width: 100%;
+}
+
+.btn.add
+{
+	border-radius: 0.313rem;
+	width: 5.5rem;
+	font-size: 0.75rem;
+	height: 2.25rem;
+	margin: 0 0;
+}
+
+.btn.add:active
+{
+	background: var(--blue);
+}
+
+.btn.add.guardar
+{
+	margin: 0;
+}
+
+.btn.add.cancel
+{
+	background: var(--red);
+	margin-left: 1.1rem;
+}
+
+@media screen and (min-width: 768px){
+	.mov-reasig
+	{
+		width: 23%;
+	}
+	
+	.fecha-reasig
+	{
+		width: 23%;
+	}
+	
+	.carga-descarga
+	{
+		width: 23%;
+	}
+	
+	.concept-reasig
+	{
+		width: 23%;
+	}
+
+	.nuevadep-reasig
+	{
+		width: 30%;
+	}
+	
+	.viejadep-reasig
+	{
+		width: 30%;
+	}
+
+	.code-bien
+	{
+		width: 30%;
+	}
+
+}

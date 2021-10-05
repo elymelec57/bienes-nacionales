@@ -1,0 +1,122 @@
+.num_Movincorp
+{
+	width: 100%;
+}
+
+#num_Movincorp
+{
+	width: 100%;
+}
+
+.fecha-incorp
+{
+	width: 100%;
+}
+
+#fecha_Incorp
+{
+	width: 100%;
+}
+
+.numacta_Incorp
+{
+	width: 100%;
+}
+
+#numacta_Incorp
+{
+	width: 100%;
+}
+
+.numentrega_Incorp
+{
+	width: 100%;
+}
+
+#numentrega_Incorp
+{
+	width: 100%;
+}
+
+.prestamo_Incorp
+{
+	width: 100%;
+}
+
+#prestamo_Incorp
+{
+	width: 100%;
+}
+
+.codigo_Bienes
+{
+	width: 100%;
+}
+
+#codigo_Bienes
+{
+	width: 100%;
+}
+
+.codigo_Depend
+{
+	width: 100%;
+}
+
+#codigo_Depend
+{
+	width: 100%;
+}
+
+.cedula_Encarg
+{
+	width: 100%; 
+}
+
+#cedula_Encarg
+{
+	width: 100%;
+}
+
+@media screen and (min-width: 768px){
+	.num_Movincorp
+	{
+		width: 32%;
+	}
+
+	.fecha-incorp
+	{
+		width: 31%;
+	}
+
+	.numacta_Incorp
+	{
+		width: 32%;
+	}
+
+	.numentrega_Incorp
+	{
+		width: 32%;
+	}
+
+	.prestamo_Incorp
+	{
+		width: 32%;
+	}
+
+	.codigo_Bienes
+	{
+		width: 32%;
+	}
+
+	.codigo_Depend
+	{
+		width: 32%;
+	}
+
+	.cedula_Encarg
+	{
+		width: 32%; 
+	}
+}
+

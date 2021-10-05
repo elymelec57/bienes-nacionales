@@ -1,0 +1,42 @@
+.btn-cate
+{
+	display: block;
+	margin-bottom: -0.4rem;
+}
+
+.encargados .h1
+{
+	font-size: 1.2rem;
+	margin-bottom: 0.7rem;
+}
+
+table button:nth-child(1)
+{
+	background: var(--green);
+}
+
+table button:nth-child(2)
+{
+  background: var(--yellow);
+}
+
+table button:nth-child(3)
+{
+  background: var(--red);
+}
+
+@media screen and (min-width: 448px){
+  
+	.btn-cate
+	{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}  
+
+	.btn-cate .h1
+	{
+  		text-indent: 0rem;
+		margin-bottom: 0rem;
+	} 
+}

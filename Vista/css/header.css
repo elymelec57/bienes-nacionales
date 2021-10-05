@@ -1,0 +1,278 @@
+.header
+{
+  width: 100%;
+  height: 4em;
+  display: flex;
+  z-index: 1;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(-45deg, var(--pri-gradient) 0%, var(--sec-gradient) 100%);
+  box-shadow: 1px 1px 4px 2px rgba(0,0,0,0.25);
+}
+
+.bars
+{
+  position: absolute;
+  left: 1em;
+}
+
+.fa-bars
+{
+  font-size: 1.938rem;
+  color: var(--text-secundary);
+  cursor: pointer;
+}
+
+.logo-header
+{
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  user-select: none;
+}
+
+.search
+{
+  display: none;
+}
+
+.profile
+{
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  align-items: center;
+  right: 1rem;
+}
+
+.p-hidde
+{
+  display: none;
+}
+
+.i-hidde{
+  margin-right: 0.125rem;
+  font-size: 1.438rem;
+}
+
+.profile a
+{
+  display: flex; 
+  cursor: pointer;
+  user-select: none;
+  outline: none;
+  align-items: center;
+  color: var(--text-secundary);
+}
+
+.profile h3
+{
+  font-size: 1rem;
+  font-weight: 400;
+  margin-right: 0.35rem; 
+}
+
+.profile-popup
+{
+  width: auto;
+  height: 8.1rem;
+  /*height: 10.5rem;*/
+  right: 0;
+  margin-top: 3.47rem; 
+  margin-right: 1rem; 
+  min-width: 10rem;
+  position: fixed;
+  z-index: 1000;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.25rem;
+  background: var(--white-box);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.profile-popup a
+{
+  line-height: 2.188rem;
+  padding: 0 1.3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.profile-popup a:hover
+{
+  color: var(--blue);
+  background: var(--light);
+}
+
+.profile-popup h4
+{
+  font-weight: 400;
+}
+
+.profile-popup i
+{
+  color: var(--gray); 
+  margin-right: 0.5rem;
+  font-size: 1.094rem;
+}
+
+.divider
+{
+  height: 0;
+  margin: 0.5rem 0;
+  overflow: hidden;
+  border-top: 1px solid var(--separator);
+}
+
+@media screen and (min-width: 768px){
+  .header
+  {
+    height: 3.8em;
+    background: var(--white);
+    box-shadow: none; 
+    justify-content: flex-start;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+  }
+
+  .logo-header  
+  {
+    display: none;
+  }
+
+  .bars
+  {
+    left: 1.2em;
+  }
+
+  .fa-bars
+  {
+    color: var(--toggle);
+  }
+
+  .search
+  {
+    width: 15.625rem;
+    height: 2.25rem;
+    display: flex;
+    margin-left: 4.2em;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .search > input
+  {
+    width: 65%;
+    height: 100%;
+    margin: 0;
+    border: 1px solid #ced4da;
+    border-right: 0;
+    outline: none;
+    text-indent: 0.625rem;
+    border-radius: 0;
+    border-top-left-radius: 0.313rem;
+    border-bottom-left-radius: 0.313rem;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+
+  .search > input:focus
+  {
+    width: 100%;
+    border: 1.5px solid var(--blue);
+    border-right: 0;
+  } 
+
+  .search > .fa
+  {
+    width: 19%;
+    height: 100%;
+    border: none;
+    border-left: none;
+    display: flex;
+    padding: 0.188rem;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background: var(--color-blue);
+    color: var(--text-secundary);
+    border-top-right-radius: 0.313rem;
+    border-bottom-right-radius: 0.313rem;
+    cursor: pointer;
+  }
+
+  .search > .fa:hover
+  {
+    background: var(--hover-blue);
+  }
+
+  .search > .fa:active
+  {
+    background: var(--blue);
+  }
+
+  .profile
+  {
+    height: 2.32rem;
+    border-radius: 0.25rem;
+    padding: 0 0.75rem;
+    right: 1.3rem;
+    background: var(--blue);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    cursor: pointer;
+  }
+
+  .profile:hover
+  {
+    background: var(--hover-blue);
+  }
+
+  .i-hidde
+  {
+    margin-right: 0.35rem;
+    font-size: 0.95rem;
+  }
+
+  .p-hidde
+  {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .bars
+  {
+    display: none;
+  }
+
+  .search
+  {
+    width: 16.6rem; 
+    margin-left: 14.2rem;
+  }
+
+  .search > input
+  {
+    width: 64%;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .search
+  {
+    width: 17rem; 
+    margin-left: 14.7rem;
+  }
+
+  .search > input
+  {
+    width: 65%;
+  }
+}

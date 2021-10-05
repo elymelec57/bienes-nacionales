@@ -1,0 +1,172 @@
+.consult-dep th, td
+{
+  padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+}
+
+.consult-dep th 
+{
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  color: var(--color-blue);
+}
+
+.h1{
+	margin-bottom: -0.4rem;
+}
+
+.codigo-dep
+{
+	width: 100%; 
+}
+
+#codigo_Depend
+{
+	width: 100%;
+}
+
+.clasificacion-dep
+{
+	width: 100%;
+}
+
+#clasificacion-dep
+{
+	width: 100% 
+}
+
+.dependencia-dep
+{
+	width: 100%; 
+}
+
+#dependencia-dep
+{
+	width: 100%; 
+}
+
+.edificio-dep
+{
+	width: 100%;
+}
+
+#edificio-dep
+{
+	width: 100%;
+}
+
+.cedula_Encarg
+{
+	width: 100%; 
+}
+
+#cedula_Encarg
+{
+	width: 100%; 
+}
+
+.chequeo-dep
+{
+	width: 100%; 
+}
+
+#chequeo-dep
+{
+	width: 100%; 
+}
+
+.observacion-dep
+{
+	width: 100%; 
+}
+
+#observacion-dep
+{
+	width: 100%; 
+}
+
+.tomafisica-dep
+{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.4rem;
+}
+
+#tomafisica-dep
+{
+	margin-left: 1rem;
+}
+
+.edicion-dep
+{
+	width: 100%;
+	display: flex;
+	align-items: center; 
+	margin-bottom: 0.4rem;
+}
+
+#edicion-dep
+{
+	margin-left: 1rem;
+}
+
+.documentacion-dep
+{
+	width: 100%;
+	display: flex;
+	align-items: center; 
+}
+
+#documentacion-dep
+{
+	margin-left: 1rem;
+}
+
+@media screen and (min-width: 768px){
+	.codigo-dep
+	{
+		width: 30%; 
+	}
+	
+	.clasificacion-dep
+	{
+		width: 68%;
+	}
+
+	.dependencia-dep
+	{
+		width: 60%;
+	}
+
+	.edificio-dep
+	{
+		width: 38%;
+	}
+
+	.cedula-dep
+	{
+		width: 35%; 
+	}
+
+	.chequeo-dep
+	{
+		width: 23%; 
+	}
+
+	.tomafisica-dep
+	{
+		width: 24%; 
+		margin-bottom: 0;
+	}
+
+	.edicion-dep
+	{
+		width: 24%;
+		margin-bottom: 0;
+	}
+
+	.documentacion-dep
+	{
+		width: 23%; 
+	}
+}

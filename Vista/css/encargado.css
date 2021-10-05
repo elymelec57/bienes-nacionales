@@ -1,0 +1,107 @@
+.btn-cate
+{
+	display: block;
+	margin-bottom: -0.4rem;
+}
+
+.btn.add
+{
+	border-radius: 0.313rem;
+	width: 5.5rem;
+	font-size: 0.75rem;
+	height: 2.35rem;
+	margin: 0 0;
+}
+
+.btn.add:active
+{
+	background: var(--blue);
+}
+
+.btn.add.guardar
+{
+	margin: 0;
+}
+
+.btn.add.guardar:hover
+{
+	background: var(--hover-blue);
+}
+
+.btn.add.cancel:hover
+{
+	background: var(--hover-red);
+}
+
+.btn.add.cancel
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--red);
+	margin-left: 1.1rem;
+}
+
+.encargados .h1
+{
+	font-size: 1.2rem;
+	margin-bottom: 0.7rem;
+}
+
+.encargados form
+{
+	width: 100%;
+}
+
+.encargados form input[type="text"]
+{
+	width: 100%;
+	text-indent: 0.7rem;
+	border-radius: 0.3rem;
+	padding: 0.5rem 0.313rem;
+	background: var(--input-bg);
+	margin-bottom: 0.65rem;
+	border: 2px solid var(--input-bg);
+ 	outline: none;
+}
+
+.encargados form input[type="text"]:focus
+{
+	border: 2px solid var(--blue);
+}
+
+.btn-categoria
+{
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (min-width: 448px){
+  
+	.btn-cate
+	{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}  
+
+	.btn-cate .h1
+	{
+  		text-indent: 0rem;
+		margin-bottom: 0rem;
+	} 
+
+	.btn.add
+	{	
+		margin: 0 0.6rem;
+	}	
+}
+
+@media screen and (min-width: 1024px){
+	
+	.btn.add
+	{
+		font-size: 0.8rem;
+		width: 5.8rem;
+	}
+}

@@ -1,0 +1,187 @@
+.area-desinc
+{
+	width: 100%;
+}
+
+#mov_Desincorp
+{
+	width: 100%;
+}
+
+.date-desinc
+{
+	width: 100%;
+}
+.depend-desinc
+{
+	width: 100%;
+}
+
+#codigo_Depend
+{
+	width: 100%;
+}
+
+#fecha_Desincorp
+{
+	width: 100%;
+}
+
+.date-denuncia
+{
+	width: 100%;
+}
+
+#fecha_Denuncia
+{
+	width: 100% !important;
+}
+
+.act-desinc
+{
+	width: 100%;
+}
+
+#acta_Desincorp
+{
+	width: 100%;
+}
+
+.con-desincorporar
+{
+	width: 100%;
+}
+
+#estado_Desincorp
+{
+	width: 100%;
+}
+
+.categoria-desincorporar
+{
+	width: 100%;
+}
+
+#categoria-desincorporar
+{
+	width: 100%;
+}
+
+.denuncia-desincorporar
+{
+	width: 100%;
+}
+
+#denuncia_Desincorp
+{
+	width: 100%;
+}
+
+.fecha-desincorporar
+{
+	width: 100%
+}
+
+#fecha-desincorporar
+{
+	width: 100%
+}
+
+.oficio-desincorporar
+{
+	width: 100%
+}
+
+#oficio_Desincorp
+{
+	width: 100%
+}
+
+.dep-desincorporar
+{
+	width: 100%;
+}
+
+#codigo_Bienes
+{
+	width: 100%;
+}
+
+.btn.add
+{
+	border-radius: 0.313rem;
+	width: 5.5rem;
+	font-size: 0.75rem;
+	height: 2.25rem;
+	margin: 0 0;
+}
+
+.btn.add:active
+{
+	background: var(--blue);
+}
+
+.btn.add.guardar
+{
+	margin: 0;
+}
+
+.btn.add.cancel
+{
+	background: var(--red);
+	margin-left: 1.1rem;
+}
+
+@media screen and (min-width: 768px){
+	.area-desinc
+	{
+		width: 32%;
+	}
+	
+	.act-desinc
+	{
+		width: 31%;
+	}
+
+	.date-desinc
+	{
+		width: 32%;
+	}
+
+	.depend-desinc
+	{
+		width: 32%;
+	}
+
+	.dep-desincorporar
+	{
+		width: 31%;
+	}
+	
+	.categoria-desincorporar
+	{
+		width: 35%;
+	}
+
+	.con-desincorporar
+	{
+		width: 32%;
+	}
+
+	.denuncia-desincorporar
+	{
+		width: 32%;
+	}
+
+	.oficio-desincorporar
+	{
+		width: 32%
+	}
+
+	.date-denuncia
+	{
+		width: 31%;
+	}
+
+	
+}

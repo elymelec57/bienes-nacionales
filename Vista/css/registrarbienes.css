@@ -1,0 +1,182 @@
+.error
+{
+  display: block;
+  color: tomato !important;
+}
+
+.code-act-ficha
+{
+	width: 100%;
+}
+
+#codigo_Bienes
+{
+	width: 100%;
+}
+
+.code-hist-ficha
+{
+	width: 100%;
+}
+
+#codhistorico_Bienes
+{
+	width: 100%;
+}
+
+.descripcion-ficha
+{
+	width: 100%;
+}
+
+#descripcion_Bienes
+{
+	width: 100%;
+}
+
+.categoria-ficha
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+#codigo_Categoria
+{
+	width: 100% !important;
+}
+
+.type-bien-incorp
+{
+	width: 100%;
+}
+
+#tipo_Bienes
+{
+	width: 100%;
+}
+
+.name-bien-incorp
+{
+	width: 100%;
+}
+
+#nombre_Bienes
+{
+	width: 100%;
+}
+
+.conservacion_Bienes
+{
+	width: 100%;
+}
+
+#conservacion_Bienes
+{
+	width: 100%;
+}
+
+.fechacheq_Bienes
+{
+	width: 100%;
+}
+
+#fechacheq_Bienes
+{
+	width: 100%;
+}
+
+.estado-bien
+{
+	width: 100%;
+}
+
+.foto-bien
+{
+	width: 100%;
+	height: 20rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.foto-bien .f-b
+{
+	width: 60%;
+	height: 80%;
+	background: #ddd;
+	border: 1px solid var(--ligh-gray);
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.custom-input-file {
+  background-color: var(--blue-dark);
+  color: #fff;
+  cursor: pointer;
+  margin: 0.6rem auto 0;
+  overflow: hidden;
+  padding: 7px;
+  position: relative;
+  text-align: center;
+	width: 150px;
+}
+
+.custom-input-file .input-file {
+ border: 10000px solid transparent;
+ cursor: pointer;
+ font-size: 10000px;
+ margin: 0;
+ opacity: 0;
+ outline: 0 none;
+ padding: 0;
+ position: absolute;
+ right: -1000px;
+ top: -1000px;
+}
+
+@media screen and (min-width: 768px){
+	.code-act-ficha
+	{
+		width: 33%;
+	}
+
+	.code-hist-ficha
+	{
+		width: 33%;
+	}
+
+	.categoria-ficha
+	{
+		width: 28%;
+	}
+
+	.type-bien-incorp
+	{
+		width: 30%;
+	}
+	
+	.name-bien-incorp
+	{
+		width: 67%;
+	}
+
+	.estado-bien
+	{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.fechacheq_Bienes
+	{
+		width: 30%;
+	}
+
+	.conservacion_Bienes
+	{
+		width: 40%;
+	}
+}
